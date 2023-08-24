@@ -1,0 +1,9 @@
+{
+  "prod1.tf.topic": {
+    "config": {
+      "cleanup.policy": "delete",
+      "retention.ms": "604800000"
+    },
+    "partitions_count": 3
+  }
+}
